@@ -1,0 +1,3 @@
+class ValentinesController < ApplicationController
+
+end
