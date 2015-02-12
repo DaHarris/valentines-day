@@ -1,11 +1,20 @@
-<%= form.for @valentine do |v| %>
+<h1>Dan's super sweet valentines day web app - hit me up on <%= link_to 'linkedin', 'http://www.linkedin.com/in/danielwharrisdenver/' %> to get this dope ass web design framework genius on your payroll. THOSE FONT COLORS ARE OUT OF CONTROL, YOU CANT HANDLE ME.</h1>
 
-  <%= f.label :name %>
-  <%= f.text_field :name %>
+<%= form_for @valentine do |v| %>
 
-  <%= f.label :message %>
-  <%= f.text_area_field :message %>
+  <%= v.label :name %>
+  <%= v.text_field :name %>
 
-  <%= f.submit %>
+  <%= v.label :message %>
+  <%= v.text_field :message %>
+
+  <%= v.submit 'uhhhhh, get it' %>
 
 <% end %>
+<br>
+<ul> <h2> Examples of some of the fine valentines Dan previously recieved: </h2>
+  <li> Dan,  you are probably the finest coder that has ever lived - Bill Gates</li>
+  <li> Dan, I am a man, but I want you to have my children. - Lebron James</li>
+  <li> Dan, I see why they call you Big D - Amelia Earhart</li>
+  <li> <h3> AND MANY MORE </h3> </li>
+</ul>

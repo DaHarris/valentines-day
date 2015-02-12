@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+ body {
+   background-image: url('space_cats.jpg');
+ }
+
+ label {
+   color: #00ffff
+ }
+
+ h1 {
+   color: #7cfc00
+ }
+
+ h2 {
+   color: #ff1493
+ }
+
+ h3 {
+   color: #00bfff
+ }
+
+ li {
+   color: #ffff00
+ }
