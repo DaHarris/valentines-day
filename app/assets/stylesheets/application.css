@@ -14,7 +14,7 @@
  *= require_self
  */
  body {
-   background-image: url('space_cats.jpg');
+   background-image: image-url('space_cats.jpg');
  }
 
  label {
