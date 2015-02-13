@@ -1,5 +1,9 @@
 class ValentinesController < ApplicationController
 
+  def welcome
+    render :layout => false
+  end
+
   def new
     @valentine = Valentine.new
   end

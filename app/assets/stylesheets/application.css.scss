@@ -13,8 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+
  body {
    background-image: asset-url("space_cats.jpg");
+   background-repeat:no-repeat;
+
+   background-size: 70% 100%;
  }
 
  strong {
